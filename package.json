@@ -9,7 +9,7 @@
   "bin": {
     "smtp": "./bin/smtp"
   },
-  "repository": "",
+  "repository": "https://github.com/RayViljoen/smtp-test",
   "keywords": [ "smtp", "tool", "mail", "email", "testing" ],
   "author": "Ray Viljoen <rayviljoen@me.com>",
   "license": "BSD",
