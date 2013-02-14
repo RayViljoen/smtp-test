@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+// Run the SMTP index
+require('coffee-script');
+require('../tool');

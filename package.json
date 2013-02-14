@@ -1,0 +1,22 @@
+{
+  "name": "smtp-test",
+  "version": "0.1.0",
+  "description": "Simple CLI tool for testing SMTP via Telnet.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "smtp": "./bin/smtp"
+  },
+  "repository": "",
+  "keywords": [ "smtp", "tool", "mail", "email", "testing" ],
+  "author": "Ray Viljoen <rayviljoen@me.com>",
+  "license": "BSD",
+  "preferGlobal": true,
+  "dependencies": {
+    "commander": "~1.1.1",
+    "coffee-script": "~1.4.0",
+    "cli-color": "~0.2.1"
+  }
+}
