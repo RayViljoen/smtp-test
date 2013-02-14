@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "bin": {
-    "smtp": "./bin/smtp"
+    "smtptest": "./bin/smtptest"
   },
   "repository": "https://github.com/RayViljoen/smtp-test",
   "keywords": [ "smtp", "tool", "mail", "email", "testing" ],
