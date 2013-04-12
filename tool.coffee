@@ -1,4 +1,3 @@
-
 pkg   = require './package'
 os    = require 'os'
 fs    = require 'fs'
@@ -31,13 +30,13 @@ smtp =
 	from: "user@#{domain}"
 	to: 'user@localhost'
 	data: 'Hello from smtp-test..!'
-	header:
+	headers:
 		'From': "user@#{domain}"
 		'To': 'user@localhost'
 		'Reply-To': "user@#{domain}"
 		'Date': new Date()
 		'Subject': 'SMTP Test'
-		'Content-Type': 'plain/text'
+		'Content-Type': 'text/plain'
 
 # ----------------------------------
 # Check if sample file needs saving
